@@ -1,0 +1,30 @@
+An object is a runtime instance of a class in memory. Represents state of your program.
+
+Java classes have 2 primary elements : fields and methods. Together these are called members of the class. 
+Variables/fields hold the state of the program and methods operate on that state.
+Java calls a word with special meaning as KEYWORD.
+A method is an operation that can be called.
+The full declaration of a method is known as the method signature.
+void means that no value at all is returned.
+information be supplied to it from the calling method, this info is called a parameter.
+
+1. java does not require a class to be public.
+2.You can even put two classes in the same file. When you do so, at most one of the classes in the file is allowed to be public.
+can put 2 classes in the same file. when doing so, only one class in the file is allowed to be public. 
+3. also if you do have a public class, it needs to match the filename.
+
+
+Rules
+========================
+Each file can contain only one class.
+The filename must match the class name, including case, and have a .java exension.
+
+u cn write the parameter of main() like these:
+
+1. String[] args
+2. String args[]
+3. String...args ---> varargs (variable argument lists)
+
+Import statements tell Java which packages to look in for classes.
+
+Java only looks for class names in the package.
